@@ -1,0 +1,95 @@
+
+@font-face{
+  font-family: ola;
+  src:url(../letra/ola.ttf);
+}
+
+@font-face{
+  font-family: adios;
+  src:url(../letra/adios.ttf);
+}
+
+@font-face{
+  font-family: again;
+  src:url(../letra/again.ttf);
+}
+
+@font-face{
+  font-family: no;
+  src:url(../letra/no.ttf);
+}
+
+@font-face{
+  font-family: OldLondon;
+  src:url(./letra/OldLondon.ttf);
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: no;
+}
+
+header{
+	width: 100%;
+	background: pink;
+	height: 70px;
+	position: fixed;
+	z-index: 10;
+}
+/* aquí estamos modificando el ancho */
+.ancho{
+	width: 80%;
+	height: 70px;
+	
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: no;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: rale;
+}
+nav ul li a:hover{
+	color: #444;
+}
+@font-face{
+	font-family: no;
+	src: url(fuentes/Raleway-Regular.ttf);
+}
+
+
+
